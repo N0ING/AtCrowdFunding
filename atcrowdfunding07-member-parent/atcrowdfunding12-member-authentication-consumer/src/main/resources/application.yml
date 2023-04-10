@@ -1,0 +1,21 @@
+server:
+  port: 4000
+spring:
+  application:
+    name: atguigu-crowd-auth
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+
+short:
+  message:
+    host: http(s)://gyytz.market.alicloudapi.com/sms/smsSend
+    path: /sms/smsSend
+    appCode: 31bd9cd6b8bf482fa0da5299a6aec26f
+    method: POST
+    sign: 1
+    skin: 2
